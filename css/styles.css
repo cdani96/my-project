@@ -49,3 +49,24 @@ h3 {
 .mepic {
     border-radius: 100%;
 }
+
+/* Position the container in the bottom right corner of the website */
+.statcounter-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+}
+
+/* Style the image */
+.statcounter-img {
+  width: 80%;
+  border-radius: 50%;
+  box-shadow: 0 0 10px #ccc;
+}
+
+/* Add a hover effect to the image */
+.statcounter-img:hover {
+  transform: scale(1.1);
+  transition: transform .3s ease-in-out;
+}
