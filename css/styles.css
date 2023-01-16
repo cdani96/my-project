@@ -48,7 +48,18 @@ h3 {
 
 .mepic {
     border-radius: 100%;
+    width: 40%;
 }
+
+.computer-img {
+    width: 40%;
+}
+
+.view-img {
+    width: 40%;
+}
+
+
 
 /* Position the container in the bottom right corner of the website */
 .statcounter-container {
