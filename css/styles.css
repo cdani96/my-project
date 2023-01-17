@@ -78,6 +78,7 @@ hr {
 }
 
 .mepic {
+<<<<<<< HEAD
   border-radius: 100%;
 }
 
@@ -91,6 +92,17 @@ hr {
   width: 25%;
   float: right;
   margin-left: 30px;
+=======
+    border-radius: 100%;
+}
+
+.computer-img {
+    width: 30%;
+}
+
+.view-img {
+    width: 30%;
+>>>>>>> 86963232350c748af751a3113e4656a9399f3deb
 }
 
 .skill-row {
@@ -137,6 +149,11 @@ hr {
 
 /* Add a hover effect to the image */
 .statcounter-img:hover {
+<<<<<<< HEAD
   transform: scale(1.1);
   transition: transform 0.3s ease-in-out;
+=======
+    transform: scale(1.1);
+    transition: transform .3s ease-in-out;
+>>>>>>> 86963232350c748af751a3113e4656a9399f3deb
 }
