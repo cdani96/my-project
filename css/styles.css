@@ -1,30 +1,30 @@
 body {
-  margin: 0;
-  text-align: center;
-  font-family: "Merriweather", serif;
+    margin: 0;
+    text-align: center;
+    font-family: "Merriweather", serif;
 }
 
 h1 {
-  color: #66bfbf;
-  margin: 50px auto 0 auto;
-  font-family: "Sacramento", cursive;
-  font-size: 5.625rem;
+    color: #66bfbf;
+    margin: 50px auto 0 auto;
+    font-family: "Sacramento", cursive;
+    font-size: 5.625rem;
 }
 
 h2 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 2.5rem;
-  color: #66bfbf;
-  font-weight: normal;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    color: #66bfbf;
+    font-weight: normal;
 }
 
 h3 {
-  font-family: "Montserrat", sans-serif;
-  color: #11999e;
+    font-family: "Montserrat", sans-serif;
+    color: #11999e;
 }
 
 a {
-  color: #11999e;
+    color: #11999e;
 }
 
 hr {
@@ -35,9 +35,9 @@ hr {
 }
 
 .top-container {
-  background-color: #eaf6f6;
-  position: relative;
-  padding-top: 100px;
+    background-color: #eaf6f6;
+    position: relative;
+    padding-top: 100px;
 }
 
 .intro-p {
@@ -45,54 +45,59 @@ hr {
     color: #40514e;
 }
 
-.middle-container {
-}
+.middle-container {}
 
 .bottom-container {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: #11999e;
-  color: white;
+    margin-top: 10px;
+    width: 100%;
+    background-color: #66BFBF;
+    padding: 20px;
+    text-align: center;
+    clear: both;
 }
 
+.footer-link {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+
 .pro {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 .mountain-img {
-  position: relative;
+    position: relative;
 }
 
 .top-cloud {
-  position: absolute;
-  right: 300px;
-  top: 50px;
+    position: absolute;
+    right: 300px;
+    top: 50px;
 }
 
 .bottom-cloud {
-  position: absolute;
-  left: 300px;
-  bottom: 300px;
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
 }
 
 .mepic {
-<<<<<<< HEAD
-  border-radius: 100%;
+    border-radius: 100%;
 }
 
 .computer-img {
-  width: 25%;
-  float: left;
-  margin-right: 30px;
+    width: 25%;
+    float: left;
+    margin-right: 30px;
 }
 
 .view-img {
-  width: 25%;
-  float: right;
-  margin-left: 30px;
-=======
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+    =======
     border-radius: 100%;
 }
 
@@ -102,14 +107,13 @@ hr {
 
 .view-img {
     width: 30%;
->>>>>>> 86963232350c748af751a3113e4656a9399f3deb
 }
 
 .skill-row {
-  width: 50%;
-  margin: 100px auto;
-  text-align: left;
-  line-height: 2;
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
 }
 
 .BUTTON_VVC {
@@ -130,30 +134,27 @@ hr {
     display: inline-block;
     cursor: pointer;
     text-align: center;
- }
+}
 
 /* Position the container in the bottom right corner of the website */
 .statcounter-container {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  z-index: 999;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
 }
 
 /* Style the image */
 .statcounter-img {
-  width: 80%;
-  border-radius: 50%;
-  box-shadow: 0 0 10px #ccc;
+    width: 80%;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #ccc;
 }
 
 /* Add a hover effect to the image */
 .statcounter-img:hover {
-<<<<<<< HEAD
-  transform: scale(1.1);
-  transition: transform 0.3s ease-in-out;
-=======
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
     transform: scale(1.1);
     transition: transform .3s ease-in-out;
->>>>>>> 86963232350c748af751a3113e4656a9399f3deb
 }
